@@ -1,0 +1,82 @@
+
+body{
+    font-family: 'Rubik', sans-serif;
+    font-size: 10px;
+    color: black;
+
+
+
+
+}
+ .nav{
+     min-height: 70px;
+     color:rgb(48, 13, 13);
+     background-color:  skyblue;
+ }
+
+ .nav-dark{
+    min-height: 70px;
+    color: whitesmoke;
+    background-color: darkblue
+   }
+   
+ .heading{
+   padding: 10px 0px 0px 20px ;
+   border: none;
+ }
+ .endMode{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .night-shift{
+     height: 20px;
+     width: 40px;
+     background-color: #53ff8d;
+    border-radius: 20px;
+ }
+ .on{
+   display: flex;
+   justify-content: flex-end;
+ }
+ .night-shift>div{
+    height: 18px;
+    width: 18px;
+    margin: 1px;
+    background-color: aliceblue;
+    border: 1px solid dimgray;
+    border-radius: 50%;
+ }
+
+ .banner{
+   background-color:#d3d6cd;
+    min-height: 550px;
+    margin-top: 10px;
+    width: 100%;
+    padding: 0px 0px 0px 20px;
+    border-radius: 10px;
+    color:black;
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 5px 20px 25px 10px; 
+    box-shadow: 10px 4px 5px 1px gainsboro;
+    transition: transform 100ms ease-in-out;
+ }
+ .banner:hover{
+   cursor: pointer;
+    transform: scale(1.05);
+}
+
+ .dark{
+   background-color: rgb(55, 61, 61);
+   color: aliceblue;
+   border: 1px solid gainsboro;
+   box-shadow: 10px 4px 5px 1px rgb(99, 91, 91);
+
+
+ }
+
+
